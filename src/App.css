@@ -1,7 +1,35 @@
 .App {
+  /* text-align: center; */
+}
+.Uistyle {
+display: flex;
+margin:2.5%;
+justify-content:space-around;
+}
+.back_button{
+  margin: 2%;
+  padding: 0.4%;
+}
+.desc{
+  padding:3%;
+}
+.minwithdraw{
+  color: green;
+}
+.mindeposit{
+  color: red;
+}
+.button{
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
 }
-
+.news{  
+ 
+  display: flex;
+  margin-left: 5%;
+  justify-content:space-around;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
